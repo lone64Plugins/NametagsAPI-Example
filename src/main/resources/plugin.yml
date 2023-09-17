@@ -1,0 +1,14 @@
+name: ExampleAPI
+main: org.lone64.example.ExampleAPI
+author: lone64
+version: 1.0.0
+api-version: '1.13'
+description: 닉네임 변경 플러그인
+permissions:
+  example.perms:
+    default: op
+    description: 닉네임 시스템 권한
+commands:
+  닉네임:
+    permission: example.perms
+    description: 닉네임 시스템 명령어
